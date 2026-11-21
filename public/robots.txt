@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /us/lp/
+Sitemap: https://eldercare.eliteleadgrow.com/sitemap.xml
