@@ -4,7 +4,7 @@ from ec import *
 page(None, "index", f"{BRAND} | Dementia care at home in the United States and Australia", "",
      f'<main class="root-sel" id="main"><a class="logo" href="/index.html"><i>e</i><b>{BRAND}</b><small>{TAG}</small></a>'
      f'<h1 style="text-align:center;margin-top:26px;max-width:18ch">Where does your family need care?</h1>'
-     f'<p class="lede" style="text-align:center">Prices, funding and rules are different in each country, so each has its own site.</p><p class="sugnote" aria-live="polite" style="font-weight:700;color:#1d1d1f"></p>'
+     f'<p class="lede" style="text-align:center">Prices, funding and rules are different in each country, so each has its own site.</p><p class="sugnote" aria-live="polite" style="font-weight:700;color:#0e4a4f"></p>'
      f'<div class="mcards"><a class="mcard" data-m="us" href="/us/index.html" hreflang="en-US" style="--bg:url(/img/skyway.jpg)"><div><span class="sg">Suggested for you</span><h2>United States</h2><p>Florida, starting in Tampa Bay. Private pay, long-term care insurance and veterans\' benefits explained.</p><span class="btn">Go to the US site</span></div></a>'
      f'<a class="mcard" data-m="au" href="/au/index.html" hreflang="en-AU" style="--bg:url(/img/sydney.jpg)"><div><span class="sg">Suggested for you</span><h2>Australia</h2><p>Waitlist and information. Support at Home funding explained step by step.</p><span class="btn">Go to the Australian site</span></div></a></div>'
      f'<p class="cn" style="margin-top:26px;text-align:center">Photos are illustrative stock images. &copy; 2026 {BRAND}.</p></main>',
@@ -17,9 +17,9 @@ def home(M):
     slides = "".join(f'<div class="sl" style="background-image:url(/img/{n}.jpg);animation-delay:{i * 8}s"></div>' for i, n in enumerate(["elder-care", "two-women", "couple-dance", "elder-nurse"]))
     book = "Book a free care assessment" if live else "Join the waitlist"
     trust = (f'<span>{M["lic_short"]}</span><span>No Google rating shown until real families review us</span><span>{"Care starts within 72 hours" if live else "Support at Home explained honestly"}</span>')
-    hero = (f'<header class="hero2">{slides}<canvas id="net"></canvas><div class="au"></div><div class="sp"></div><button class="hpause" type="button" aria-pressed="false">Pause</button><div class="w"><div>'
-            f'<p class="ey">{"Dementia care at home in " + M["metro"] if live else "Coming to Australia: join the waitlist"}</p>'
-            f'<h1>Dementia care your whole family can <span class="shim">see.</span></h1>'
+    hero = (f'<header class="hero2">{slides}<button class="hpause" type="button" aria-pressed="false">Pause</button><div class="w"><div>'
+            f'<p class="ey" style="color:#ffc3b0!important">{"Dementia care at home in " + M["metro"] if live else "Coming to Australia: join the waitlist"}</p>'
+            f'{WORDS("Dementia care your whole family can see.")}'
             f'<p class="lede">Trained {cgs} at home, {"a start within 72 hours" if live else "a small team who knows them"}, and a live app so you always know how they are.</p>'
             f'<div class="hb"><a class="btn big" href="/{p}/book.html">{book}</a> <a class="btn o big" href="tel:{M["tel"]}">{"Call us now, any hour" if live else "Call a care advisor"}</a></div>'
             f'<div class="trust">{trust}</div></div>{CARECARD(M)}</div></header>')

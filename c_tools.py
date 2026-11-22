@@ -20,7 +20,7 @@ def app(M):
               "Optional photos when your family and the client have agreed", "A weekly digest by email", "A downloadable PDF to take to the doctor"]), flip=True) +
         SECTION("Trends and insight", "See change early, not after a crisis.", "Charts over weeks for mood, meals, hydration and sleep. A gentle flag when a pattern changes prompts a call from the care manager. It is never a diagnosis.") +
         LINE("Demo: mood and hydration scores over 8 weeks (sample data)", [f"W{i}" for i in range(1, 9)],
-             [("Mood (out of 10)", [6, 6.5, 7, 6.8, 7.4, 7.2, 7.8, 8]), ("Glasses of water a day", [4, 4.5, 5, 5.5, 5, 6, 6.2, 6.5], "#1d1d1f")],
+             [("Mood (out of 10)", [6, 6.5, 7, 6.8, 7.4, 7.2, 7.8, 8]), ("Glasses of water a day", [4, 4.5, 5, 5.5, 5, 6, 6.2, 6.5], "#0e4a4f")],
              note="Fictional demo data. Real charts use your family's care notes.") +
         SECTION("Family circle", "Everyone in the loop, each with the right access.") +
         T(["Role", "Can see visits and notes", "Can message the team", "Can approve plan changes", "Sees billing"],
@@ -35,7 +35,7 @@ def app(M):
         SPLIT("phone1", H2("Billing and ratings") + TICKS(["Live hours and invoices", "Pay by card or bank transfer",
               "A one-tap rating after each visit that feeds our public promises dashboard"] + (["Long-term care insurance claim support: invoices formatted for your insurer"] if not au else []))) +
         ((SECTION("Australia additions", "Your Support at Home budget, in plain view.") +
-          DONUT("Demo: quarterly Support at Home budget (sample data)", [("Personal care used", 38, "#0071e3"), ("Everyday living used", 22, "#1d1d1f"), ("Remaining", 40, "#e3efed")], ("40%", "remaining"),
+          DONUT("Demo: quarterly Support at Home budget (sample data)", [("Personal care used", 38, "#bf4128"), ("Everyday living used", 22, "#0e4a4f"), ("Remaining", 40, "#e3efed")], ("40%", "remaining"),
                 note="Fictional demo figures. Your real budget, statements and contributions come from your service agreement.") +
           TICKS(["Funds used and remaining, updated after each visit", "Copies of your service agreement", "Monthly statements", "Contribution tracking against the lifetime cap"])) if au else "") +
         SECTION("Privacy", "Who can see what, and what we never do.") +
@@ -75,7 +75,7 @@ def pricing(M):
         f'<div class="grid g3">{pk}</div>' +
         SECTION("Estimator", "Work out your own monthly cost.") + EST(M) +
         COLS("Illustrative: monthly cost of 20 hours a week, by type of care", ["Companion", "Personal", "Dementia"],
-             [("Monthly cost", [round(_mo(r[k], 20)) for k in ("companion", "personal", "dementia")], "#0071e3")], note="Illustrative figures from our starting rates, before any insurance, benefit or funding.",
+             [("Monthly cost", [round(_mo(r[k], 20)) for k in ("companion", "personal", "dementia")], "#bf4128")], note="Illustrative figures from our starting rates, before any insurance, benefit or funding.",
              fmt=lambda v: f"{s}{v:,.0f}") +
         SPLIT("couple-docs", H2("Fees and policies") + TICKS(["No sign-up or assessment fee", "Minimum visit of 3 hours", "Change or stop care with 7 days' notice, no long contracts",
               "Weekend and public holiday hours cost about 15% more", "Your price is confirmed in writing before care starts"])) +
@@ -141,7 +141,7 @@ def funding(M):
               ("Choose a provider", "Compare registered providers on price, services, dementia skills and how they communicate with families.", "two-women"),
               ("Sign a service agreement", "It sets out services, prices, your contributions and how to change or complain. Read it before you sign.", "hands-care")]) +
         SECTION("Classifications", "Eight funding levels.", "Budgets are indexed each July. The exact amount for each level is on the department's published schedule.") +
-        BARS("Annual Support at Home budget, July 2026 (AUD, approximate)", [("Level 1", 11010, "about $11,010", "#1d1d1f"), ("Level 8", 80137, "about $80,137", "#0071e3")],
+        BARS("Annual Support at Home budget, July 2026 (AUD, approximate)", [("Level 1", 11010, "about $11,010", "#0e4a4f"), ("Level 8", 80137, "about $80,137", "#bf4128")],
              note='Source: Department of Health, Disability and Ageing, Support at Home classifications and budgets, July 2026. Levels 2 to 7 sit between these; check the official schedule.') +
         SECTION("Contributions", "What you pay, and what the government pays.") +
         T(["Pension status", "Clinical care", "Independence (e.g. personal care)", "Everyday living (e.g. cleaning, meals)"],
