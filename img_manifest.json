@@ -1,0 +1,470 @@
+[
+  {
+    "file": "woman-living-room-smile.jpg",
+    "alt": "Elderly woman smiling in a living room.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-smiling-in-a-living-room-IihDS3WZGlY"
+  },
+  {
+    "file": "woman-smartphone-smile.jpg",
+    "alt": "Elderly woman smiling while looking at her smartphone.",
+    "theme": "tech",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-smiling-while-looking-at-smartphone-cHbyGVOQspk"
+  },
+  {
+    "file": "nurse-smiling-patient.jpg",
+    "alt": "Nurse smiling with an elderly patient in a room.",
+    "theme": "caregiver",
+    "credit_url": "https://unsplash.com/photos/nurse-smiling-with-elderly-patient-in-room-dMhB7w99ju8"
+  },
+  {
+    "file": "headscarf-kitchen-smile.jpg",
+    "alt": "Elderly woman in a headscarf smiling in a kitchen.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-in-a-headscarf-smiling-in-a-kitchen-fQCX9E7DF_c"
+  },
+  {
+    "file": "child-elder-porch.jpg",
+    "alt": "Child and elderly woman together on a porch.",
+    "theme": "family",
+    "credit_url": "https://unsplash.com/photos/child-and-elderly-woman-on-porch-s1SEWSKsuXM"
+  },
+  {
+    "file": "woman-bread-soup.jpg",
+    "alt": "Smiling woman offering bread and soup.",
+    "theme": "food",
+    "credit_url": "https://unsplash.com/photos/smiling-woman-offers-bread-and-soup-nEYNnepvCdI"
+  },
+  {
+    "file": "man-newspaper-steps.jpg",
+    "alt": "Elderly man with a white beard reading a newspaper on steps.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/elderly-man-with-white-beard-reading-newspaper-on-steps-wABb3WTrCOM"
+  },
+  {
+    "file": "two-men-bench-paper.jpg",
+    "alt": "Two elderly men sitting on a park bench reading a newspaper.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/two-elderly-men-sitting-on-a-park-bench-reading-newspaper-p-bHUFUaPoQ"
+  },
+  {
+    "file": "man-train-newspaper.jpg",
+    "alt": "Elderly man wearing glasses reading a newspaper on a train.",
+    "theme": "activity",
+    "credit_url": "https://unsplash.com/photos/elderly-man-wearing-glasses-reads-a-newspaper-on-a-train-PR-TEtOD3qo"
+  },
+  {
+    "file": "grandfather-holds-baby.jpg",
+    "alt": "Grandfather lovingly holding his grandchild.",
+    "theme": "family",
+    "credit_url": "https://unsplash.com/photos/grandfather-lovingly-holds-his-adorable-grandchild-vh8T3QwFPkk"
+  },
+  {
+    "file": "grandpa-video-games.jpg",
+    "alt": "Grandfather and grandson playing video games together on a couch.",
+    "theme": "family",
+    "credit_url": "https://unsplash.com/photos/grandfather-and-grandson-playing-video-games-together-on-couch-N0KujB48IUo"
+  },
+  {
+    "file": "caregiver-walker-assist.jpg",
+    "alt": "Caregiver assisting an elderly woman with a walker.",
+    "theme": "caregiver",
+    "credit_url": "https://unsplash.com/photos/caregiver-assists-elderly-woman-with-walker-2obyM4zYt3Y"
+  },
+  {
+    "file": "woman-salad-prep.jpg",
+    "alt": "Elderly woman preparing a salad in a kitchen.",
+    "theme": "food",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-preparing-salad-in-a-kitchen-W9Vu-Cy2vtg"
+  },
+  {
+    "file": "two-women-gardening.jpg",
+    "alt": "Two older women gardening together.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/two-older-women-are-gardening-in-a-garden-14zJoKPpA7g"
+  },
+  {
+    "file": "woman-yellow-flowers.jpg",
+    "alt": "Elderly woman picking yellow flowers in a garden.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-picking-yellow-flowers-in-a-garden-BVNHKfN5SzQ"
+  },
+  {
+    "file": "woman-watering-garden.jpg",
+    "alt": "Elderly woman watering plants in a lush garden.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-watering-plants-in-a-lush-garden-LWMtQV_rzpA"
+  },
+  {
+    "file": "elders-card-game.jpg",
+    "alt": "A group of elderly people playing a game of cards.",
+    "theme": "activity",
+    "credit_url": "https://unsplash.com/photos/a-group-of-elderly-people-playing-a-game-of-cards-w7lIbEtmE9c"
+  },
+  {
+    "file": "men-cards-square.jpg",
+    "alt": "Older men playing cards in a town square.",
+    "theme": "activity",
+    "credit_url": "https://unsplash.com/photos/older-men-playing-cards-in-square-MeUDpdwAR1Q"
+  },
+  {
+    "file": "men-chinese-chess.jpg",
+    "alt": "Elderly men playing Chinese chess outdoors.",
+    "theme": "activity",
+    "credit_url": "https://unsplash.com/photos/elderly-men-playing-chinese-chess-outdoors-3vL7slPLsxM"
+  },
+  {
+    "file": "woman-knitting-muted.jpg",
+    "alt": "Elderly woman knitting in a quiet, muted room.",
+    "theme": "activity",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-knitting-in-a-dark-muted-setting-QHKVr6-WsjY"
+  },
+  {
+    "file": "woman-sewing-dog.jpg",
+    "alt": "Elderly woman sewing at a table with a dog beside her.",
+    "theme": "activity",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-sewing-by-a-table-with-a-dog-wQuZ5dtLx_w"
+  },
+  {
+    "file": "woman-couch-living.jpg",
+    "alt": "Elderly woman sitting on a couch in a living room.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-sitting-on-a-couch-in-a-living-room-SqFWOZVhGLk"
+  },
+  {
+    "file": "seniors-photo-album.jpg",
+    "alt": "Three seniors looking at a photo album together.",
+    "theme": "dementia",
+    "credit_url": "https://unsplash.com/photos/three-seniors-looking-at-a-photo-album-together-IuocpNR7s74"
+  },
+  {
+    "file": "man-small-dog-street.jpg",
+    "alt": "Elderly man walking a small dog on a cobblestone street.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/elderly-man-walking-a-small-dog-on-a-cobblestone-street-AZQh0WBzGyw"
+  },
+  {
+    "file": "men-playing-music.jpg",
+    "alt": "Three older men playing music together.",
+    "theme": "activity",
+    "credit_url": "https://unsplash.com/photos/three-older-men-playing-music-Q2gkmJLqRC0"
+  },
+  {
+    "file": "men-lake-instruments.jpg",
+    "alt": "Elderly men playing traditional instruments outdoors by a lake.",
+    "theme": "activity",
+    "credit_url": "https://unsplash.com/photos/elderly-men-playing-traditional-chinese-instruments-outdoors-by-a-lake-_qcdFdjJE9g"
+  },
+  {
+    "file": "man-beard-book.jpg",
+    "alt": "Elderly man with a long beard reading a book.",
+    "theme": "activity",
+    "credit_url": "https://unsplash.com/photos/an-elderly-man-with-a-long-beard-reads-a-book-zZEjbug_dl8"
+  },
+  {
+    "file": "man-glasses-cane.jpg",
+    "alt": "Old man with glasses holding a wooden walking stick.",
+    "theme": "health",
+    "credit_url": "https://unsplash.com/photos/an-old-man-with-glasses-holding-a-wooden-stick-HclsIOwZ8HI"
+  },
+  {
+    "file": "older-woman-comfort.jpg",
+    "alt": "Older woman comforting a younger woman.",
+    "theme": "family",
+    "credit_url": "https://unsplash.com/photos/older-woman-comforting-younger-woman-G1Z0cIMYHVM"
+  },
+  {
+    "file": "two-armchairs-sun.jpg",
+    "alt": "Two old upholstered armchairs in warm sunlight.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/two-old-upholstered-armchairs-in-sunlight-with-rustic-background-SH-JrsRENhI"
+  },
+  {
+    "file": "blue-armchair.jpg",
+    "alt": "Blue armchair next to a wooden table with a magazine.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/blue-armchair-next-to-a-wooden-table-with-a-magazine-IEwPYWNK1j8"
+  },
+  {
+    "file": "couple-park-walk.jpg",
+    "alt": "An elderly couple walking through a park.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/an-elderly-couple-walks-through-a-park-Mpf6IQpiq3A"
+  },
+  {
+    "file": "couple-park-bench.jpg",
+    "alt": "Elderly couple sitting together on a park bench.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/elderly-couple-sitting-on-a-park-bench-vDmCL9hKTRE"
+  },
+  {
+    "file": "couple-park-wheelchair.jpg",
+    "alt": "Elderly couple out in a park with a wheelchair.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/elderly-couple-walking-in-a-park-with-a-wheelchair-7JFR7fmZIBU"
+  },
+  {
+    "file": "couple-holding-hands-street.jpg",
+    "alt": "Elderly couple holding hands as they walk down a street.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/elderly-couple-holding-hands-walking-down-street-3KPd3ERsujA"
+  },
+  {
+    "file": "couple-narrow-street.jpg",
+    "alt": "An older couple walking down a narrow street.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/an-older-couple-walking-down-a-narrow-street-NOUHO5uobNE"
+  },
+  {
+    "file": "couple-crosswalk.jpg",
+    "alt": "Older couple walking across a city crosswalk.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/older-couple-walking-across-city-crosswalk-GXJmMzmi59Y"
+  },
+  {
+    "file": "hands-clasped-connection.jpg",
+    "alt": "Two elderly hands clasped together, showing connection.",
+    "theme": "caregiver",
+    "credit_url": "https://unsplash.com/photos/two-elderly-hands-clasped-together-showing-connection-nX8uzTIfysY"
+  },
+  {
+    "file": "hands-clasped-closeup.jpg",
+    "alt": "Close-up of elderly hands clasped together.",
+    "theme": "caregiver",
+    "credit_url": "https://unsplash.com/photos/close-up-of-elderly-hands-clasped-together-EljMmcGmeGA"
+  },
+  {
+    "file": "older-holds-younger-hand.jpg",
+    "alt": "An older woman holding the hand of a younger woman.",
+    "theme": "caregiver",
+    "credit_url": "https://unsplash.com/photos/an-older-woman-holding-the-hand-of-a-younger-woman-ZLmLOclfeE4"
+  },
+  {
+    "file": "couple-hands-couch.jpg",
+    "alt": "Elderly couple smiling and holding hands on a couch.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/elderly-couple-smiling-and-holding-hands-on-couch-km-QocCOSM4"
+  },
+  {
+    "file": "man-beret-tablet.jpg",
+    "alt": "Elderly man with a beard and beret using a tablet.",
+    "theme": "tech",
+    "credit_url": "https://unsplash.com/photos/elderly-man-with-beard-wearing-beret-uses-tablet-WM5vcRSszWo"
+  },
+  {
+    "file": "man-mug-phone-couch.jpg",
+    "alt": "Smiling senior man holding a mug and phone on a couch.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/smiling-senior-man-holding-mug-and-phone-on-couch-Q7YbIt4yNUs"
+  },
+  {
+    "file": "patio-walker-pair.jpg",
+    "alt": "Two people with a walker on a patio.",
+    "theme": "caregiver",
+    "credit_url": "https://unsplash.com/photos/two-people-with-a-walker-on-a-patio-PDq4J6_1z44"
+  },
+  {
+    "file": "man-chopsticks-window.jpg",
+    "alt": "Elderly man eating with chopsticks by a window.",
+    "theme": "food",
+    "credit_url": "https://unsplash.com/photos/an-elderly-man-eating-with-chopsticks-by-a-window-5552wvkNnkM"
+  },
+  {
+    "file": "woman-glass-water.jpg",
+    "alt": "Older woman holding a glass of water.",
+    "theme": "health",
+    "credit_url": "https://unsplash.com/photos/an-older-woman-holding-a-glass-of-liquid-HgXkLAfbkEs"
+  },
+  {
+    "file": "woman-cane-crosswalk.jpg",
+    "alt": "Elderly woman with a cane crossing the street at a crosswalk.",
+    "theme": "health",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-with-cane-crosses-street-at-crosswalk-AfUTZt_umf0"
+  },
+  {
+    "file": "woman-cane-rural-road.jpg",
+    "alt": "Elderly woman walking with a cane on a rural road.",
+    "theme": "health",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-walks-with-a-cane-on-a-rural-road-ZQFIFgm3oFg"
+  },
+  {
+    "file": "woman-hat-cane.jpg",
+    "alt": "Elderly woman with a hat and cane walking outside.",
+    "theme": "health",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-with-hat-and-cane-walks-outside--_ThJKXVTvs"
+  },
+  {
+    "file": "woman-sari-cane.jpg",
+    "alt": "Elderly woman in a purple sari walking with a cane.",
+    "theme": "health",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-in-purple-sari-walks-with-cane-B2Y01Ti0e0M"
+  },
+  {
+    "file": "man-beach-walk.jpg",
+    "alt": "Elderly man walking on a sandy beach near the ocean.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/elderly-man-walks-on-a-sandy-beach-near-the-ocean-w9q1llzDFHI"
+  },
+  {
+    "file": "elder-bench-sea.jpg",
+    "alt": "An elderly person sitting on a bench looking out at the sea.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/an-elderly-person-sits-on-a-bench-staring-at-sea-vwPJdCz44qg"
+  },
+  {
+    "file": "woman-reading-couch.jpg",
+    "alt": "Elderly woman reading a book on a couch.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-reading-a-book-on-a-couch-zuLrqcc4Hu0"
+  },
+  {
+    "file": "woman-reading-window.jpg",
+    "alt": "Elderly woman reading a book by the window.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-reading-a-book-by-the-window-_I5nArnP4ws"
+  },
+  {
+    "file": "woman-reading-bench.jpg",
+    "alt": "An older woman reading a book on a park bench.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/an-older-woman-reads-a-book-on-a-park-bench-LQZOiWMRKeM"
+  },
+  {
+    "file": "two-women-converse.jpg",
+    "alt": "Two elderly women talking together indoors.",
+    "theme": "family",
+    "credit_url": "https://unsplash.com/photos/two-elderly-women-converse-indoors-possibly-at-church-fiTLP2e42Ys"
+  },
+  {
+    "file": "man-broad-smile.jpg",
+    "alt": "Happy older man smiling broadly at the camera.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/happy-older-man-smiles-broadly-at-the-camera-0Xv2Paj0RQ4"
+  },
+  {
+    "file": "man-portrait-smile.jpg",
+    "alt": "Smiling elderly man posing for a portrait.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/a-smiling-elderly-man-poses-for-a-portrait-QLhbwB7uVQ8"
+  },
+  {
+    "file": "man-formal-smile.jpg",
+    "alt": "Elderly man smiling in a formal outfit.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/an-elderly-man-smiles-in-a-formal-outfit-YOQA5SHsD_g"
+  },
+  {
+    "file": "man-mustache-gentle.jpg",
+    "alt": "Older man with a mustache smiling gently.",
+    "theme": "home",
+    "credit_url": "https://unsplash.com/photos/an-older-man-with-a-mustache-smiles-gently-koY6DEpR6Q0"
+  },
+  {
+    "file": "couple-clapping-wheelchairs.jpg",
+    "alt": "Elderly couple clapping together in wheelchairs.",
+    "theme": "activity",
+    "credit_url": "https://unsplash.com/photos/elderly-couple-clapping-in-wheelchairs-mfyKb-cutSY"
+  },
+  {
+    "file": "woman-on-wheelchair.jpg",
+    "alt": "Woman sitting in a wheelchair.",
+    "theme": "health",
+    "credit_url": "https://unsplash.com/photos/woman-sitting-on-wheelchair-zBsdRTHIIm4"
+  },
+  {
+    "file": "woman-red-walker.jpg",
+    "alt": "Woman in a red sweater pushing a walker.",
+    "theme": "health",
+    "credit_url": "https://unsplash.com/photos/a-woman-in-a-red-sweater-is-pushing-a-walker-KmtcfswCvP4"
+  },
+  {
+    "file": "seniors-tea-pie.jpg",
+    "alt": "Three seniors enjoying tea and pie together.",
+    "theme": "food",
+    "credit_url": "https://unsplash.com/photos/three-seniors-enjoying-tea-and-pie-together-74p16le3c-E"
+  },
+  {
+    "file": "couple-tea.jpg",
+    "alt": "Elderly couple enjoying tea together.",
+    "theme": "food",
+    "credit_url": "https://unsplash.com/photos/elderly-couple-enjoying-tea-together-hUFoz8lZw38"
+  },
+  {
+    "file": "grandma-girl-breakfast.jpg",
+    "alt": "Grandmother and granddaughter sharing breakfast at a table.",
+    "theme": "family",
+    "credit_url": "https://unsplash.com/photos/grandmother-and-granddaughter-sharing-breakfast-at-table-znxxhOIQtIE"
+  },
+  {
+    "file": "men-laugh-bench.jpg",
+    "alt": "Two elderly men laughing and smiling on a bench.",
+    "theme": "outdoors",
+    "credit_url": "https://unsplash.com/photos/two-elderly-men-laughing-and-smiling-on-a-bench-DYaPrnKBYSQ"
+  },
+  {
+    "file": "three-adults-paper.jpg",
+    "alt": "Three older adults looking at a paper together.",
+    "theme": "family",
+    "credit_url": "https://unsplash.com/photos/three-older-adults-are-looking-at-a-paper-hqq2aIEURNA"
+  },
+  {
+    "file": "hospital-bed-nurse-assist.jpg",
+    "alt": "A woman in a hospital bed being assisted by a nurse.",
+    "theme": "hospital",
+    "credit_url": "https://unsplash.com/photos/a-woman-in-a-hospital-bed-being-assisted-by-a-nurse-hTBxHfspOJk"
+  },
+  {
+    "file": "hospital-bed-nurse-portrait.jpg",
+    "alt": "Nurse assisting a woman patient in a hospital bed, portrait framing.",
+    "theme": "hospital",
+    "credit_url": "https://unsplash.com/photos/a-woman-in-a-hospital-bed-being-assisted-by-a-nurse-LH3A50DM-z4"
+  },
+  {
+    "file": "doctor-patient-couch.jpg",
+    "alt": "Doctor talking with an elderly patient on a couch at home.",
+    "theme": "health",
+    "credit_url": "https://unsplash.com/photos/doctor-talks-with-an-elderly-patient-on-a-couch-BUNNEclz-yQ"
+  },
+  {
+    "file": "doctor-bp-check.jpg",
+    "alt": "Doctor taking an elderly patient's blood pressure.",
+    "theme": "health",
+    "credit_url": "https://unsplash.com/photos/doctor-takes-elderly-patients-blood-pressure-96Eiu2AdZG0"
+  },
+  {
+    "file": "doctor-stethoscope.jpg",
+    "alt": "A doctor listening to a patient with a stethoscope.",
+    "theme": "health",
+    "credit_url": "https://unsplash.com/photos/a-doctor-listening-to-a-patient-with-a-stethoscope-0brH8nlXv0M"
+  },
+  {
+    "file": "man-beard-thoughtful.jpg",
+    "alt": "Elderly man with a beard and glasses looking thoughtful.",
+    "theme": "dementia",
+    "credit_url": "https://unsplash.com/photos/elderly-man-with-beard-and-glasses-looking-thoughtful-CRg2N1d03m0"
+  },
+  {
+    "file": "man-chin-hand.jpg",
+    "alt": "Older man with glasses resting his chin on his hand.",
+    "theme": "dementia",
+    "credit_url": "https://unsplash.com/photos/older-black-man-with-glasses-resting-chin-on-hand--P2HxOhjSPM"
+  },
+  {
+    "file": "man-glasses-indoors.jpg",
+    "alt": "Elderly man with glasses and a beard sitting indoors.",
+    "theme": "dementia",
+    "credit_url": "https://unsplash.com/photos/elderly-man-with-glasses-and-beard-indoors-uPrf_H_KhIE"
+  },
+  {
+    "file": "caregiver-knitting-two.jpg",
+    "alt": "Caregiver assisting two elderly women with their knitting.",
+    "theme": "caregiver",
+    "credit_url": "https://unsplash.com/photos/caregiver-assists-two-elderly-women-knitting-GStFfDrOygo"
+  },
+  {
+    "file": "woman-dances-young-man.jpg",
+    "alt": "Elderly woman dancing with a younger man.",
+    "theme": "activity",
+    "credit_url": "https://unsplash.com/photos/elderly-woman-dances-with-a-younger-man-LwDjjYDaijA"
+  }
+]

@@ -109,7 +109,7 @@ def footer(M):
             ("Trust", [("Our promises", f"/{p}/promises.html"), ("Licensing, insurance and safety", f"/{p}/trust.html"), ("Care team", f"/{p}/team.html"),
                        ("Reviews", f"/{p}/reviews.html"), ("About", f"/{p}/about.html")]),
             ("More", [("Family app", f"/{p}/app.html"), ("Resources", f"/{p}/resources/index.html"), ("Careers", f"/{p}/careers.html"),
-                      ("Locations", f"/{p}/locations/index.html"), ("Client login", f"/{p}/login.html")]),
+                      ("Locations", f"/{p}/locations/index.html"), ("Photo gallery", f"/{p}/gallery.html"), ("Client login", f"/{p}/login.html")]),
             ("Legal", [("Privacy policy", f"/{p}/privacy.html"), ("Terms", f"/{p}/terms.html"), ("Accessibility statement", f"/{p}/accessibility.html")]
                       + ([("Complaints", f"/{p}/complaints.html")] if p == "au" else [("Health privacy notice", f"/{p}/privacy.html#health")]))]
     c = "".join(f'<div><h4>{h}</h4>' + "".join(f'<a href="{u}">{t}</a>' for t, u in L) + "</div>" for h, L in cols)
@@ -402,6 +402,33 @@ def ARTICLE_META(author="The " + BRAND + " care team", reviewed="Clinical review
 # ---------- render ----------
 FONT = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">'
 
+import random as _random, os as _os2
+
+def all_photos():
+    d = _os2.path.join(_os2.path.dirname(_os2.path.abspath(__file__)), "img")
+    skip = {"skyway", "sydney", "au-suburb"}  # place photos are used deliberately elsewhere
+    return sorted(f[:-4] for f in _os2.listdir(d) if f.endswith(".jpg") and f[:-4] in ALT and f[:-4] not in skip)
+
+BAND_LINES = [("Care is a hundred small, good things.", "A hand held. A story remembered. A routine that fits them."),
+              ("Home is where they know where everything is.", "Familiar rooms, familiar faces, one steady team."),
+              ("Good days are made of ordinary moments.", "Tea in the right cup. A walk in the garden. Someone who listens."),
+              ("They stay themselves. We keep them safe.", "Specialist care, shaped around the person they have always been.")]
+
+def enrich(path, d):
+    """Adds photo-rich sections (marquee strip, parallax band and gallery) to every content page."""
+    body = d["body"]
+    if d["landing"] or d["nohero"] is True or path.endswith(("/privacy", "/terms", "/accessibility", "/login", "/book", "/care-quiz")): return body
+    rnd = _random.Random(path)
+    pool = all_photos()
+    pick = rnd.sample(pool, min(len(pool), 22))
+    strip, band, gal = pick[:12], pick[12], pick[13:19]
+    line = BAND_LINES[rnd.randrange(len(BAND_LINES))]
+    block = BAND(band, line[0], line[1]) + GALLERY(gal)
+    i = body.find("<h2", int(len(body) * .35))
+    if i > 0: body = body[:i] + STRIP(strip) + body[i:]
+    j = body.rfind('<section class="cta-f')
+    return body[:j] + block + body[j:] if j > 0 else body + block
+
 def relativize(h, depth):
     pre = "../" * depth
     def f(m):
@@ -415,6 +442,7 @@ def relativize(h, depth):
 def render(path, d, v):
     M = d["M"]
     depth = path.count("/")
+    d = dict(d, body=enrich(path, d)) if path != "index" else d
     title = d["title"]
     if path.endswith("/careers") and 'id="apply"' not in d["body"]:
         d = dict(d, body=d["body"].replace('<form class="book"', '<form id="apply" class="book"', 1))

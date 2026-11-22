@@ -3,7 +3,7 @@
 import os, sys, glob, hashlib, shutil, importlib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ec as S
-MODS = ["c_home", "c_services", "c_trust", "c_tools", "c_resources", "c_more"]
+MODS = ["c_home", "c_services", "c_trust", "c_tools", "c_resources", "c_more", "c_gallery"]
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "public")

@@ -289,3 +289,11 @@ PAGEX = {}   # slug -> {"img": name, "chips": [(value, label), ...]}
 def page(slug, group, title, lede, body, img=None, chips=None):
     PAGES[slug] = (group, title, lede, body)
     PAGEX[slug] = {"img": img, "chips": chips or []}
+
+
+# extra photos downloaded later (img_manifest.json written by the image-harvest step)
+import json as _json, os as _os
+_MF = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "img_manifest.json")
+MANIFEST = _json.load(open(_MF)) if _os.path.exists(_MF) else []
+for _m in MANIFEST:
+    ALT.setdefault(_m["file"][:-4], _m["alt"])
