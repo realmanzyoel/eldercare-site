@@ -6,4 +6,4 @@ __pycache__
 assets/il.*
 assets/ec.*
 assets/m_*
-img
+/img
