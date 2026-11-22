@@ -90,9 +90,6 @@ def header(M, path):
     mk = (f'<div class="mkt" role="group" aria-label="Country"><a href="/{path}.html" class="on" aria-current="true">{M["flag"]}</a>'
           f'<a href="/{om}.html" hreflang="{"en-AU" if p == "us" else "en-US"}">{"AU" if p == "us" else "US"}</a></div>')
     return (f'<a class="skip" href="#main">Skip to content</a>'
-            f'<div class="util"><div class="w"><span>{M["lic_short"]} &middot; <button class="lic-tip" type="button" aria-describedby="lictip">Do I need a license number to trust you?</button>'
-            f'<span role="tooltip" id="lictip">Yes, ask for it. A licensed agency must show it, and you can check it yourself on the <a href="{M["regulator"][1]}" target="_blank" rel="noopener">{M["regulator"][0]}</a> site. Ours is shown in the footer of every page.</span></span>'
-            f'<span class="u-r">{M["hours"].split(".")[0]} &middot; {ph(M)}</span></div></div>'
             f'<nav class="top" aria-label="Main"><div class="w"><a class="logo" href="/{p}/index.html" aria-label="{BRAND} home"><i>e</i><b>{BRAND}</b><small>{TAG}</small></a>'
             f'<div class="links"><div class="dd"><a href="/{p}/services/index.html" class="ddt">Services</a><div class="ddm">{sv}<a class="all" href="/{p}/services/index.html">All services &rsaquo;</a></div></div>{links.split("</a>",1)[1]}</div>'
             f'{mk}<a class="ncall" href="tel:{M["tel"]}" aria-label="Call {M["phone"]}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg><span>{M["phone"]}</span></a>'
@@ -400,7 +397,7 @@ def ARTICLE_META(author="The " + BRAND + " care team", reviewed="Clinical review
     return f'<p class="ameta"><span>Written by {author}</span><span>{reviewed}</span><span>Last updated {date}</span></p>'
 
 # ---------- render ----------
-FONT = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">'
+FONT = ''
 
 def relativize(h, depth):
     pre = "../" * depth
@@ -430,7 +427,7 @@ def render(path, d, v):
         else:
             chips = d["chips"]
             hc = '<div class="hc">' + "".join(f"<div><b>{a}</b><span>{b}</span></div>" for a, b in chips[:3]) + "</div>" if chips else ""
-            top = (f'<header class="cine ec" style="--bg:url(/img/{d["img"] or "elder-care"}.jpg)"><div class="cb"></div><div class="sp"></div>{hc}'
+            top = (f'<header class="cine big ec" style="--bg:url(/img/{d["img"] or "elder-care"}.jpg)"><canvas id="net"></canvas><div class="au"></div><div class="sp"></div>{hc}'
                    f'<div class="cw"><p class="ey">{d["eyebrow"] or M["region"]}</p>{WORDS(title)}<p class="lede">{d["lede"]}</p>'
                    + (f'<div class="hb"><a class="btn big" href="#apply">Apply in 3 minutes</a> <a class="btn o big" href="#main">Read the job details</a></div></div></header>' if path.endswith("/careers") else
                    f'<div class="hb"><a class="btn big" href="/{M["p"]}/book.html">{"Book a free assessment" if M["live"] else "Join the waitlist"}</a> <a class="btn o big" href="tel:{M["tel"]}">Call {M["phone"]}</a></div></div></header>'))
@@ -451,7 +448,7 @@ def render(path, d, v):
     full = (f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<title>{html.escape(re.sub("<[^>]+>", "", title))}{"" if path == "index" else " | " + BRAND}</title><meta name="description" content="{desc}">'
             f'<link rel="canonical" href="{DOMAIN}/{"" if path == "index" else path + ".html"}">{alts}{"<meta name=robots content=noindex>" if d["landing"] else ""}'
-            f'<meta name="theme-color" content="#0e4a4f"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%230e4a4f%22/%3E%3Ctext x=%2216%22 y=%2223%22 font-size=%2220%22 text-anchor=%22middle%22 fill=%22%23ffb199%22 font-family=%22Georgia%22%3Ee%3C/text%3E%3C/svg%3E">'
+            f'<meta name="theme-color" content="#ffffff"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%23000%22/%3E%3Ctext x=%2216%22 y=%2223%22 font-size=%2220%22 text-anchor=%22middle%22 fill=%22%23fff%22 font-family=%22Arial%22%3Ee%3C/text%3E%3C/svg%3E">'
             f'{FONT}<link rel="stylesheet" href="/assets/site.css?v={v}">{lds}'
             '<script>document.documentElement.classList.add("js")</script></head>'
             f'<body class="g-elder m-{M["p"] if M else "root"}{" lp" if d["landing"] else ""}">{body_html}'
