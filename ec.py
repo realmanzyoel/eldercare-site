@@ -406,7 +406,7 @@ import random as _random, os as _os2
 
 def all_photos():
     d = _os2.path.join(_os2.path.dirname(_os2.path.abspath(__file__)), "img")
-    skip = {"skyway", "sydney", "au-suburb"}  # place photos are used deliberately elsewhere
+    skip = {"skyway", "sydney", "au-suburb", "place-tampa-a", "place-sydney-a", "place-sydney-b", "place-sydney-c", "place-sydney-d"}  # place photos are used deliberately elsewhere
     return sorted(f[:-4] for f in _os2.listdir(d) if f.endswith(".jpg") and f[:-4] in ALT and f[:-4] not in skip)
 
 BAND_LINES = [("Care is a hundred small, good things.", "A hand held. A story remembered. A routine that fits them."),

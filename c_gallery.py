@@ -20,6 +20,7 @@ def gallery(M):
     body = P("These are stock photographs from Unsplash, used to show what good care at home can look like. They do not show our clients or staff.")
     first = True
     for t, title in THEMES.items():
+        if t == ("place-au" if p == "us" else "place-us"): continue
         names = groups.get(t, [])
         if not names: continue
         body += H2(title)
